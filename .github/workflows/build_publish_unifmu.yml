@@ -3,7 +3,7 @@ name: Build and Push Docker Image
 on:
   push:
     branches:
-      - main_disabled  # Trigger on push to the 'main' branch, you can change this to any branch you prefer
+      - main  # Trigger on push to the 'main' branch, you can change this to any branch you prefer
 
 jobs:
   build:
